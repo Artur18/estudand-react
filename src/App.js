@@ -1,5 +1,6 @@
 import React from 'react';
+import SquareEstudo from "./components/SquareEstudo";
 
-const App = () => <h1>Agora vai, na fé de Deus!!!</h1>
+const App = () => <SquareEstudo />;
 
 export default App;
