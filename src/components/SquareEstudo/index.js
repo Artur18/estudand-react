@@ -1,7 +1,8 @@
 import React from 'react';
+import "./styles.css";
 
 const SquareEstudo =  () =>  (
-    <button>X</button>
+    <button className ="square-estudo">X</button>
 );
 
 export default SquareEstudo;
