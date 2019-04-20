@@ -1,13 +1,8 @@
 import React from 'react';
 
 import BoardEstudo from "./components/BoardEstudo";
-import SquareEstudo from "./components/SquareEstudo";
 
-const App = () => (
-    <>
-        <BoardEstudo />
-        <SquareEstudo />   
-    </>
-);
+const App = () => <BoardEstudo qtd ="9"/>
 
+   
 export default App;
